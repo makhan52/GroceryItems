@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="754.0" style="-fx-background-color: #87fad5#87fad5;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RemoveController">
+   <children>
+      <Label layoutX="247.0" layoutY="21.0" prefHeight="55.0" prefWidth="268.0" text="Grocery Tracking System">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="list" layoutX="32.0" layoutY="144.0" onMouseClicked="#listListener" prefHeight="366.0" prefWidth="691.0" />
+      <Label layoutX="38.0" layoutY="519.0" text="Press any row to remove it from the list of items" textFill="#7a7a7a" />
+      <ImageView fitHeight="44.0" fitWidth="50.0" layoutX="679.0" layoutY="67.0" onMouseClicked="#backListener" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@back.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
