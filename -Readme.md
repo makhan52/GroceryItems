@@ -6,6 +6,6 @@ The home screen has three buttons for add, remove and update functionality. Add 
 
 Both the listview and lambda functions have been implemented and are in the AddController class. The inner class acts as a utility class which has a function "createNumericOnlyFields" that allows the fields to have only numeric data in id, price and quantity fields. This function uses lambda functions for this purpose. 
 
-The UI has been particularly emphasised. The home screen has an attractive background image and all other screens have a back button. The UX is functional and smooth as well.
+**The UI has been particularly emphasised. The home screen has an attractive background image and all other screens have a back button. The UX is functional and smooth as well.**
 
-Also, added a video of showing how the project works.
+**Also, added a video of showing how the project works.**
